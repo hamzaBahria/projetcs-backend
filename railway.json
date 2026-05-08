@@ -5,7 +5,7 @@
   },
   "deploy": {
     "startCommand": "bash start.sh",
-    "healthcheckPath": "/api/user",
+    "healthcheckPath": "/api/health",
     "restartPolicyType": "ON_FAILURE"
   }
 }
